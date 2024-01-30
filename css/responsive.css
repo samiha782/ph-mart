@@ -1,0 +1,125 @@
+@media (max-width: 900px) {
+  header,
+  .hero-section,
+  .products-section {
+    padding: 0 9rem;
+  }
+  .hero-section,
+  .products-section {
+    margin-bottom: 1rem;
+  }
+  header nav .logo h1 {
+    font-size: 3rem;
+  }
+  header nav .menu a {
+    margin-left: 2rem;
+  }
+  header nav .menu a li {
+    font-size: 2rem;
+  }
+  .hero-content button {
+    margin-left: 250px;
+  }
+  .hero-section {
+    flex-direction: column;
+  }
+  .hero-section .hero-content {
+    order: 2;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .hero-section .hero-content h1 {
+    font-size: 4rem;
+    line-height: 6rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  .hero-section .hero-content p {
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+  .hero-section .hero-img {
+    order: 1;
+    width: 100%;
+  }
+  .hero-section .hero-img img {
+    width: 100%;
+  }
+  .products-section h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 6rem;
+  }
+  .products-section .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  header,
+  .hero-section,
+  .products-section {
+    padding: 0 5rem;
+  }
+  .hero-section,
+  .products-section {
+    margin-bottom: 12rem;
+  }
+  header nav .logo h1 {
+    font-size: 1rem;
+  }
+  header nav .menu a {
+    margin-left: 1rem;
+  }
+  header nav .menu a li {
+    font-size: 1.5rem;
+  }
+  .hero-content button {
+    margin-left: 140px;
+  }
+  .hero-section {
+    flex-direction: column;
+  }
+  .hero-section .hero-content {
+    order: 2;
+    width: 100%;
+    padding-top: 80px;
+  }
+  .hero-section .hero-content h1 {
+    font-size: 2rem;
+    line-height: 6rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    text-align: center;
+  }
+  .hero-section .hero-content p {
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+  .hero-section .hero-img {
+    order: 1;
+    width: 100%;
+  }
+  .hero-section .hero-img img {
+    width: 100%;
+  }
+  .products-section h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    line-height: 6rem;
+  }
+  .products-section .products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  footer p {
+    font-size: 1rem;
+  }
+}
