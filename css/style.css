@@ -172,3 +172,13 @@ header nav .menu a li:hover {
   line-height: 1rem;
   margin-top: 1rem;
 }
+/* footer section */
+footer {
+  margin-top: 5rem;
+  font-size: 1rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefefef;
+}
